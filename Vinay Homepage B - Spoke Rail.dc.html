@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="_ds/ai-lab-h-prompt-se-portfolio-tak-ea2fd710-a43b-4e4e-8da6-9c719e5ef6a4/styles.css">
+<script src="_ds/ai-lab-h-prompt-se-portfolio-tak-ea2fd710-a43b-4e4e-8da6-9c719e5ef6a4/_ds_bundle.js"></script>
+<style>
+html{scroll-behavior:smooth}
+body{margin:0}
+a{color:var(--color-accent-2);text-decoration:none}
+a:hover{color:var(--color-accent-2-300)}
+::selection{background:var(--color-accent-2);color:var(--color-bg)}
+input,textarea{font-family:var(--font-body);color:var(--color-text);background:transparent}
+input::placeholder,textarea::placeholder{color:var(--color-neutral-500)}
+::-webkit-scrollbar{height:6px}
+::-webkit-scrollbar-thumb{background:var(--color-accent-700);border-radius:3px}
+@keyframes sigil-spin-in{
+  0%{transform:rotate(-420deg) scale(0.8);opacity:0;filter:grayscale(15%) contrast(1.05) brightness(1) drop-shadow(0 0 0 rgba(184,135,42,0));}
+  55%{opacity:1;}
+  100%{transform:rotate(0deg) scale(1);opacity:1;filter:grayscale(15%) contrast(1.05) brightness(1) drop-shadow(0 0 0 rgba(184,135,42,0));}
+}
+@keyframes sigil-glow{
+  0%,100%{filter:grayscale(15%) contrast(1.05) brightness(1) drop-shadow(0 0 0px rgba(184,135,42,0));}
+  50%{filter:grayscale(10%) contrast(1.08) brightness(1.1) drop-shadow(0 0 30px rgba(184,135,42,0.4));}
+}
+</style>
+</helmet>
+
+<div ref="{{ rootRef }}" style="background:var(--color-bg);color:var(--color-text);font-family:var(--font-body);overflow-x:hidden;position:relative;line-height:1.5">
+
+<img src="uploads/sigil.png" alt="" style="position:fixed;bottom:-40px;right:-40px;width:220px;opacity:0.06;pointer-events:none;z-index:0;filter:grayscale(10%)">
+
+<nav style="position:sticky;top:0;z-index:50;display:flex;align-items:center;justify-content:space-between;padding:20px clamp(20px,5vw,64px);background:color-mix(in srgb, var(--color-bg) 85%, transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--color-divider)">
+  <a href="#top" style="font-family:var(--font-heading);font-size:14px;letter-spacing:0.08em;text-transform:uppercase;color:var(--color-text)">Vinay Swaminathan</a>
+  <div style="display:flex;gap:clamp(14px,3vw,32px);align-items:center;font-size:13px;letter-spacing:0.03em">
+    <a href="#offerings" style="color:var(--color-text);opacity:0.75">Offerings</a>
+    <a href="#meet-vinay" style="color:var(--color-text);opacity:0.75">About</a>
+    <a href="#alignment-call" style="border:1px solid var(--color-accent-2-700);padding:8px 16px;color:var(--color-accent-2-200)">Alignment Call</a>
+  </div>
+</nav>
+
+<section id="top" style="position:relative;z-index:1;min-height:90vh;display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));align-items:center;gap:40px;padding:60px clamp(20px,5vw,64px)">
+  <div data-reveal="left">
+    <p style="font-size:13px;letter-spacing:0.16em;text-transform:uppercase;color:var(--color-neutral-500);margin:0 0 22px">Welcome</p>
+    <h1 style="font-family:var(--font-heading);font-weight:800;font-size:clamp(38px,6vw,72px);line-height:1.04;margin:0 0 26px">I'm glad<br>you found<br>your way here.</h1>
+    <p style="font-family:var(--font-heading);font-weight:800;font-size:clamp(20px,2.4vw,28px);color:var(--color-accent-2-300);margin:0 0 18px">Welcoming all of life.</p>
+    <p style="font-size:16px;color:var(--color-neutral-300);max-width:46ch;margin:0 0 30px">Growing our capacity to remain open, connected and responsive through the beautiful, mundane, difficult and unknown.</p>
+    <div style="display:flex;gap:16px;flex-wrap:wrap">
+      <a href="#offerings" style="border:1px solid var(--color-divider);padding:13px 24px;font-size:14px;color:var(--color-text)" style-hover="border-color:var(--color-accent-2)">Explore Offerings</a>
+      <a href="#alignment-call" style="background:var(--color-accent-2);color:#1a1305;font-weight:600;padding:13px 24px;font-size:14px" style-hover="background:#dfae5b">Request an Alignment Call</a>
+    </div>
+  </div>
+  <div style="position:relative;aspect-ratio:1;max-width:560px;justify-self:center;width:100%">
+    <img src="uploads/transparent antlers sigil.png" alt="Sigil" style="width:100%;height:100%;object-fit:contain;transform-origin:50% 50%;animation:sigil-spin-in 3.4s cubic-bezier(.22,1,.36,1) both, sigil-glow 5s ease-in-out 3.4s infinite">
+  </div>
+</section>
+
+<section style="position:relative;z-index:1;padding:100px clamp(20px,5vw,64px);display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:60px;max-width:1200px;margin:0 auto;border-top:1px solid var(--color-divider)">
+  <p data-reveal="1" style="font-size:13px;letter-spacing:0.16em;text-transform:uppercase;color:var(--color-neutral-500);margin:0">The Invitation</p>
+  <div data-reveal="1" style="display:flex;flex-direction:column;gap:24px;max-width:640px">
+    <p style="font-size:clamp(19px,2.2vw,24px);line-height:1.55;margin:0">When we feel welcome, we relax. We open up. It becomes easier to connect and contribute.</p>
+    <p style="font-size:clamp(19px,2.2vw,24px);line-height:1.55;margin:0;color:var(--color-neutral-300)">If we offer life the same welcome, it opens up more of its beauty, depth, and mystery.</p>
+    <p style="font-size:clamp(19px,2.2vw,24px);line-height:1.55;margin:0;color:var(--color-neutral-300)">Practically, this looks like finding the steadiness to stay with the difficult moments, so you can respond to life with choice rather than reflex.</p>
+    <a href="Vinay - Approach.dc.html" style="font-size:15px;color:var(--color-accent-2-300);border-bottom:1px solid var(--color-accent-2-700);width:fit-content;padding-bottom:3px;margin-top:8px">Explore the approach →</a>
+  </div>
+</section>
+
+<section id="offerings" style="position:relative;z-index:1;padding:80px 0 130px;border-top:1px solid var(--color-divider)">
+  <div data-reveal="1" style="max-width:1200px;margin:0 auto 44px;padding:0 clamp(20px,5vw,64px)">
+    <h2 style="font-family:var(--font-heading);font-weight:800;font-size:clamp(28px,4vw,42px);margin:0 0 18px;max-width:20ch">Five doorways into the work</h2>
+    <p style="font-size:16px;color:var(--color-neutral-300);line-height:1.7;max-width:60ch;margin:0">Are you at the edge of your current capacity — stuck and restricted, or expanding and needing an upgrade to hold what comes next? Sometimes the next movement requires rest. Sometimes perspective, emotional completion, committed action, or a different relationship with the breath.</p>
+  </div>
+  <div style="display:flex;gap:2px;overflow-x:auto;scroll-snap-type:x mandatory;padding:0 clamp(20px,5vw,64px) 20px">
+    <sc-for list="{{ doorways }}" as="d" hint-placeholder-count="5">
+      <a href="{{ d.href }}" data-reveal="1" style="scroll-snap-align:start;flex:0 0 clamp(240px,26vw,300px);background:var(--color-surface);border-left:2px solid var(--color-accent-2-700);padding:32px 24px;display:flex;flex-direction:column;gap:16px;color:var(--color-text);min-height:260px" style-hover="border-left-color:var(--color-accent-2)">
+        <span style="font-family:var(--font-heading);font-size:32px;font-weight:800;color:var(--color-accent-700)">{{ d.index }}</span>
+        <span style="font-family:var(--font-heading);font-weight:800;font-size:22px">{{ d.name }}</span>
+        <span style="font-size:14px;color:var(--color-neutral-300);line-height:1.6;flex:1">{{ d.desc }}</span>
+        <span style="font-size:13px;color:var(--color-accent-2-300)">Learn more →</span>
+      </a>
+    </sc-for>
+  </div>
+  <div data-reveal="1" style="display:flex;justify-content:center;margin-top:56px">
+    <a href="#alignment-call" style="background:var(--color-accent-2);color:#1a1305;font-weight:600;font-size:15px;padding:16px 34px" style-hover="background:#dfae5b">Request an Alignment Call</a>
+  </div>
+</section>
+
+<section id="meet-vinay" style="position:relative;z-index:1;padding:80px clamp(20px,5vw,64px) 60px;border-top:1px solid var(--color-divider)">
+  <div style="max-width:1200px;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:50px;align-items:start">
+    <div data-reveal="left" style="border-radius:var(--radius-lg);overflow:hidden;aspect-ratio:3/4;margin-top:40px">
+      <img src="uploads/vinay-white.jpg" alt="Vinay Swaminathan" style="width:100%;height:100%;object-fit:cover;filter:saturate(0.92) contrast(1.03)">
+    </div>
+    <div data-reveal="right">
+      <p style="font-size:13px;letter-spacing:0.16em;text-transform:uppercase;color:var(--color-neutral-500);margin:0 0 20px">Meet Vinay</p>
+      <p style="font-size:clamp(18px,2vw,22px);line-height:1.65;margin:0 0 30px;max-width:44ch">I live in Auroville, building a life around nature, community, creativity and more conscious ways of living. I facilitate attuned, trauma-sensitive healing experiences designed to integrate into everyday life.</p>
+      <div style="display:grid;grid-template-columns:repeat(3,auto);gap:0;border-top:1px solid var(--color-divider);border-bottom:1px solid var(--color-divider);padding:20px 0;margin-bottom:30px;max-width:460px">
+        <div style="padding-right:20px;border-right:1px solid var(--color-divider)">
+          <div style="font-family:var(--font-heading);font-weight:800;font-size:22px;color:var(--color-accent-2-300)">3,000+</div>
+          <div style="font-size:12px;color:var(--color-neutral-500);margin-top:4px">hours trained</div>
+        </div>
+        <div style="padding:0 20px;border-right:1px solid var(--color-divider)">
+          <div style="font-family:var(--font-heading);font-weight:800;font-size:22px;color:var(--color-accent-2-300)">1,000+</div>
+          <div style="font-size:12px;color:var(--color-neutral-500);margin-top:4px">people worked with</div>
+        </div>
+        <div style="padding-left:20px">
+          <div style="font-family:var(--font-heading);font-weight:800;font-size:22px;color:var(--color-accent-2-300)">10 yrs</div>
+          <div style="font-size:12px;color:var(--color-neutral-500);margin-top:4px">on the path</div>
+        </div>
+      </div>
+      <div style="display:flex;gap:24px;flex-wrap:wrap">
+        <a href="Vinay - About.dc.html" style="font-size:14px;border-bottom:1px solid currentColor;padding-bottom:2px">About Vinay →</a>
+        <a href="Vinay - Training.dc.html" style="font-size:14px;border-bottom:1px solid currentColor;padding-bottom:2px;color:var(--color-neutral-400)">Training and background →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="testimonials" style="position:relative;z-index:1;padding:80px clamp(20px,5vw,64px) 130px;max-width:1000px;margin:0 auto">
+  <p data-reveal="1" style="font-size:13px;letter-spacing:0.16em;text-transform:uppercase;color:var(--color-neutral-500);margin:0 0 46px">Testimonials</p>
+  <div style="display:flex;flex-direction:column;gap:28px">
+    <sc-for list="{{ testimonials }}" as="t" hint-placeholder-count="3">
+      <div data-reveal="{{ t.side }}" style="background:var(--color-surface);border-radius:var(--radius-lg);padding:36px clamp(24px,4vw,44px);max-width:640px;align-self:{{ t.align }}">
+        <p style="font-size:12px;letter-spacing:0.1em;text-transform:uppercase;color:var(--color-accent-2-400);margin:0 0 14px">{{ t.tag }} · Placeholder</p>
+        <p style="font-size:clamp(17px,2vw,20px);line-height:1.55;margin:0 0 18px">"{{ t.quote }}"</p>
+        <p style="font-size:13px;color:var(--color-neutral-500);margin:0">{{ t.name }}</p>
+      </div>
+    </sc-for>
+  </div>
+</section>
+
+<section id="go-deeper" style="position:relative;z-index:1;padding:80px clamp(20px,5vw,64px) 130px;border-top:1px solid var(--color-divider);max-width:1200px;margin:0 auto">
+  <h2 data-reveal="1" style="font-family:var(--font-heading);font-weight:800;font-size:clamp(26px,3.6vw,36px);margin:0 0 8px">Go deeper</h2>
+  <p data-reveal="1" style="font-size:15px;color:var(--color-neutral-400);margin:0 0 40px">For the curious — the fuller body of work.</p>
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:2px">
+    <sc-for list="{{ deeper }}" as="g" hint-placeholder-count="6">
+      <a href="{{ g.href }}" data-reveal="1" style="grid-column:span {{ g.span }};background:var(--color-surface);padding:30px 26px;display:flex;flex-direction:column;justify-content:space-between;gap:30px;min-height:150px;color:var(--color-text)" style-hover="background:var(--color-accent-900)">
+        <span style="font-size:17px;line-height:1.4">{{ g.title }}</span>
+        <span style="color:var(--color-accent-2-300)">→</span>
+      </a>
+    </sc-for>
+  </div>
+</section>
+
+<section id="alignment-call" style="position:relative;z-index:1;padding:80px clamp(20px,5vw,64px) 140px;border-top:1px solid var(--color-divider);max-width:900px;margin:0 auto">
+  <div data-reveal="1" style="margin-bottom:56px">
+    <h2 style="font-family:var(--font-heading);font-weight:800;font-size:clamp(30px,4.4vw,46px);margin:0 0 20px">The Alignment Call</h2>
+    <p style="font-size:16px;color:var(--color-neutral-300);line-height:1.7;max-width:56ch;margin:0">You do not need to know which session you need. We begin by understanding what is happening, seeing whether the work fits, and choosing where to begin together. <span style="color:var(--color-neutral-500)">Free · Usually 30 minutes.</span></p>
+  </div>
+
+  <sc-if value="{{ !submitted }}" hint-placeholder-val="{{ true }}">
+  <form onSubmit="{{ handleSubmit }}" data-reveal="1" style="display:flex;flex-direction:column;gap:26px">
+
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px">
+      <label style="display:flex;flex-direction:column;gap:8px">
+        <span style="font-size:12px;letter-spacing:0.06em;text-transform:uppercase;color:var(--color-neutral-500)">Full Name*</span>
+        <input required="required" value="{{ form.fullName }}" onChange="{{ setField('fullName') }}" style="border:1px solid var(--color-divider);background:var(--color-surface);padding:12px 14px;font-size:15px;outline:none">
+      </label>
+      <label style="display:flex;flex-direction:column;gap:8px">
+        <span style="font-size:12px;letter-spacing:0.06em;text-transform:uppercase;color:var(--color-neutral-500)">Email Address*</span>
+        <input required="required" type="email" value="{{ form.email }}" onChange="{{ setField('email') }}" style="border:1px solid var(--color-divider);background:var(--color-surface);padding:12px 14px;font-size:15px;outline:none">
+      </label>
+      <label style="display:flex;flex-direction:column;gap:8px">
+        <span style="font-size:12px;letter-spacing:0.06em;text-transform:uppercase;color:var(--color-neutral-500)">WhatsApp* (with country code)</span>
+        <input required="required" value="{{ form.whatsapp }}" onChange="{{ setField('whatsapp') }}" placeholder="+91 …" style="border:1px solid var(--color-divider);background:var(--color-surface);padding:12px 14px;font-size:15px;outline:none">
+      </label>
+      <label style="display:flex;flex-direction:column;gap:8px">
+        <span style="font-size:12px;letter-spacing:0.06em;text-transform:uppercase;color:var(--color-neutral-500)">Currently based in</span>
+        <input value="{{ form.location }}" onChange="{{ setField('location') }}" style="border:1px solid var(--color-divider);background:var(--color-surface);padding:12px 14px;font-size:15px;outline:none">
+      </label>
+    </div>
+
+    <label style="display:flex;flex-direction:column;gap:8px">
+      <span style="font-size:12px;letter-spacing:0.06em;text-transform:uppercase;color:var(--color-neutral-500)">What brought you here?*</span>
+      <span style="font-size:13px;color:var(--color-neutral-600)">The spark — a referral, something read or heard, something happening in your life, or an intuition you cannot quite explain.</span>
+      <textarea required="required" rows="3" value="{{ form.broughtHere }}" onChange="{{ setField('broughtHere') }}" style="border:1px solid var(--color-divider);background:var(--color-surface);padding:12px 14px;font-size:15px;outline:none;resize:vertical;font-family:inherit"></textarea>
+    </label>
+
+    <label style="display:flex;flex-direction:column;gap:8px">
+      <span style="font-size:12px;letter-spacing:0.06em;text-transform:uppercase;color:var(--color-neutral-500)">What feels most important to meet right now?*</span>
+      <span style="font-size:13px;color:var(--color-neutral-600)">A feeling, pattern, relationship, decision, habit, conversation, opportunity, or something you cannot quite name yet.</span>
+      <textarea required="required" rows="3" value="{{ form.mostImportant }}" onChange="{{ setField('mostImportant') }}" style="border:1px solid var(--color-divider);background:var(--color-surface);padding:12px 14px;font-size:15px;outline:none;resize:vertical;font-family:inherit"></textarea>
+    </label>
+
+    <div style="display:flex;flex-direction:column;gap:12px">
+      <span style="font-size:12px;letter-spacing:0.06em;text-transform:uppercase;color:var(--color-neutral-500)">Doorway you feel drawn toward</span>
+      <span style="font-size:13px;color:var(--color-neutral-600);margin-top:-6px">You do not need to know what you need — this is simply another piece of information.</span>
+      <div style="display:flex;flex-wrap:wrap;gap:8px;margin-top:4px">
+        <sc-for list="{{ doorwayOptions }}" as="opt" hint-placeholder-count="7">
+          <button type="button" onClick="{{ toggleDoorway(opt) }}" style="padding:9px 15px;font-size:13px;border:1px solid var(--color-divider);background:var(--color-surface);color:var(--color-text);cursor:pointer" style-hover="border-color:var(--color-accent-2)">{{ opt }}</button>
+        </sc-for>
+      </div>
+    </div>
+
+    <div style="display:flex;flex-direction:column;gap:12px">
+      <span style="font-size:12px;letter-spacing:0.06em;text-transform:uppercase;color:var(--color-neutral-500)">Preferred days</span>
+      <div style="display:flex;flex-wrap:wrap;gap:8px">
+        <sc-for list="{{ dayOptions }}" as="day" hint-placeholder-count="8">
+          <button type="button" onClick="{{ toggleDay(day) }}" style="padding:9px 13px;font-size:13px;border:1px solid var(--color-divider);background:var(--color-surface);color:var(--color-text);cursor:pointer" style-hover="border-color:var(--color-accent-2)">{{ day }}</button>
+        </sc-for>
+      </div>
+    </div>
+
+    <div style="display:flex;flex-direction:column;gap:12px">
+      <span style="font-size:12px;letter-spacing:0.06em;text-transform:uppercase;color:var(--color-neutral-500)">Preferred time (IST)</span>
+      <div style="display:flex;flex-wrap:wrap;gap:8px">
+        <sc-for list="{{ timeOptions }}" as="tm" hint-placeholder-count="3">
+          <button type="button" onClick="{{ setTime(tm) }}" style="padding:9px 15px;font-size:13px;border:1px solid {{ tm.border }};background:{{ tm.bg }};color:var(--color-text);cursor:pointer">{{ tm.label }}</button>
+        </sc-for>
+      </div>
+    </div>
+
+    <label style="display:flex;flex-direction:column;gap:8px">
+      <span style="font-size:12px;letter-spacing:0.06em;text-transform:uppercase;color:var(--color-neutral-500)">Anything else?</span>
+      <textarea rows="3" value="{{ form.anythingElse }}" onChange="{{ setField('anythingElse') }}" style="border:1px solid var(--color-divider);background:var(--color-surface);padding:12px 14px;font-size:15px;outline:none;resize:vertical;font-family:inherit"></textarea>
+    </label>
+
+    <label style="display:flex;gap:12px;align-items:flex-start;cursor:pointer">
+      <input required="required" type="checkbox" checked="{{ form.consent }}" onChange="{{ toggleConsent }}" style="margin-top:4px">
+      <span style="font-size:13px;color:var(--color-neutral-400);line-height:1.6">I understand that submitting this form requests a conversation and does not automatically schedule an appointment.*</span>
+    </label>
+
+    <p style="font-size:12px;color:var(--color-neutral-600);line-height:1.6;margin:0">Please share only what feels necessary for this first conversation. More detailed personal information can be discussed later where appropriate. See <a href="Vinay - Privacy.dc.html" style="color:var(--color-neutral-500);border-bottom:1px solid var(--color-neutral-700)">Privacy &amp; Scope</a>.</p>
+
+    <sc-if value="{{ error }}" hint-placeholder-val="{{ false }}">
+      <p style="font-size:13px;color:var(--color-accent-2-300);margin:0">{{ error }}</p>
+    </sc-if>
+
+    <button type="submit" style="background:var(--color-accent-2);color:#1a1305;font-weight:600;font-size:16px;padding:17px;border:none;cursor:pointer" style-hover="background:#dfae5b">Request Alignment Call</button>
+    <p style="font-size:12px;color:var(--color-neutral-600);text-align:center;margin:-10px 0 0">This opens your email app with the details ready to send to Vinay.</p>
+  </form>
+  </sc-if>
+
+  <sc-if value="{{ submitted }}" hint-placeholder-val="{{ false }}">
+    <div data-reveal="1" style="padding:50px;background:var(--color-surface)">
+      <p style="font-family:var(--font-heading);font-weight:800;font-size:24px;margin:0 0 14px">Thank you.</p>
+      <p style="font-size:15px;color:var(--color-neutral-300);max-width:44ch;margin:0">Your email app should be open with the details ready to send. If it didn't open, please try the button again in a moment.</p>
+    </div>
+  </sc-if>
+</section>
+
+<footer style="position:relative;z-index:1;padding:40px clamp(20px,5vw,64px);border-top:1px solid var(--color-divider);display:flex;flex-wrap:wrap;gap:16px;justify-content:space-between;font-size:13px;color:var(--color-neutral-600)">
+  <span>© 2026 Vinay Swaminathan · Auroville</span>
+</footer>
+
+</div>
+
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+class Component extends DCLogic {
+  rootRef = React.createRef();
+  state = {
+    form: { fullName:'', email:'', whatsapp:'', location:'', broughtHere:'', mostImportant:'', anythingElse:'', consent:false },
+    doorway: [], days: [], time: '', submitted: false, error: ''
+  };
+
+  componentDidMount() {
+    const root = this.rootRef.current;
+    if (!root) return;
+    const els = Array.from(root.querySelectorAll('[data-reveal]'));
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.style.opacity = '1';
+          entry.target.style.transform = 'none';
+          io.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0, rootMargin: '0px 0px -40px 0px' });
+    requestAnimationFrame(() => {
+      requestAnimationFrame(() => {
+        els.forEach((el) => {
+          const rect = el.getBoundingClientRect();
+          if (rect.top < window.innerHeight && rect.bottom > 0) {
+            el.style.opacity = '1';
+            el.style.transform = 'none';
+            return;
+          }
+          const dir = el.getAttribute('data-reveal');
+          el.style.opacity = '0';
+          el.style.transform = dir === 'left' ? 'translateX(-32px)' : dir === 'right' ? 'translateX(32px)' : 'translateY(24px)';
+          el.style.transition = 'opacity .8s cubic-bezier(.16,1,.3,1), transform .8s cubic-bezier(.16,1,.3,1)';
+          io.observe(el);
+        });
+      });
+    });
+  }
+
+  setField = (key) => (e) => {
+    const val = e.target.value;
+    this.setState(s => ({ form: { ...s.form, [key]: val } }));
+  };
+  toggleConsent = (e) => {
+    const checked = e.target.checked;
+    this.setState(s => ({ form: { ...s.form, consent: checked } }));
+  };
+  toggleDoorway = (opt) => () => {
+    this.setState(s => {
+      const has = s.doorway.includes(opt);
+      return { doorway: has ? s.doorway.filter(x => x !== opt) : [...s.doorway, opt] };
+    });
+  };
+  toggleDay = (day) => () => {
+    this.setState(s => {
+      const has = s.days.includes(day);
+      return { days: has ? s.days.filter(x => x !== day) : [...s.days, day] };
+    });
+  };
+  setTime = (opt) => () => this.setState({ time: opt.value });
+
+  handleSubmit = (e) => {
+    e.preventDefault();
+    const f = this.state.form;
+    if (!f.fullName || !f.email || !f.whatsapp || !f.broughtHere || !f.mostImportant || !f.consent) {
+      this.setState({ error: 'Please fill the required fields marked with * and confirm the checkbox before requesting a call.' });
+      return;
+    }
+    this.setState({ error: '' });
+    const lines = [
+      `Full Name: ${f.fullName}`, `Email: ${f.email}`, `WhatsApp: ${f.whatsapp}`, `Based in: ${f.location || '—'}`, ``,
+      `What brought you here: ${f.broughtHere}`, ``,
+      `What feels most important right now: ${f.mostImportant}`, ``,
+      `Doorway: ${this.state.doorway.length ? this.state.doorway.join(', ') : '—'}`,
+      `Preferred days: ${this.state.days.length ? this.state.days.join(', ') : '—'}`,
+      `Preferred time (IST): ${this.state.time || '—'}`, ``,
+      `Anything else: ${f.anythingElse || '—'}`, ``,
+      `Confirmed: this requests a conversation and does not auto-schedule an appointment.`
+    ].join('\n');
+    const subject = encodeURIComponent(`Alignment Call request — ${f.fullName}`);
+    const body = encodeURIComponent(lines);
+    window.location.href = `mailto:vinay.swami91@gmail.com?subject=${subject}&body=${body}`;
+    this.setState({ submitted: true });
+  };
+
+  renderVals() {
+    const doorways = [
+      { index:'01', name:'Body', desc:'Subtle-touch bodywork to support deep rest, integration and the body\u2019s natural capacity to rebalance.', href:'Vinay - Offerings.dc.html#body' },
+      { index:'02', name:'Mind', desc:'Clarifying what is happening, widening perspective and untangling what feels stuck.', href:'Vinay - Offerings.dc.html#mind' },
+      { index:'03', name:'Emotion', desc:'In-depth guided processes to move through emotional layers and complete what remains unfinished.', href:'Vinay - Offerings.dc.html#emotion' },
+      { index:'04', name:'Action', desc:'Turning what you know into decisions, conversations, boundaries and real-world movement.', href:'Vinay - Offerings.dc.html#action' },
+      { index:'05', name:'Breath', desc:'Tailored breathwork to support regulation, emotional release, insight and transformation.', href:'Vinay - Offerings.dc.html#breath' }
+    ];
+    const testimonials = [
+      { tag:'What shifted', side:'left', align:'flex-start', quote:'I came in circling the same argument for months. What changed was not the situation — it was how much of it I could stay present for without shutting down.', name:'Client, name withheld' },
+      { tag:'Being held', side:'right', align:'flex-end', quote:'There was no rush anywhere in the room. I have never been given that much unhurried attention before, and it let me go further than I expected.', name:'Client, name withheld' },
+      { tag:'Into ordinary life', side:'left', align:'flex-start', quote:'Weeks later, the change showed up in something small — I said no to a request I would normally have absorbed, without the usual guilt.', name:'Client, name withheld' }
+    ];
+    const deeper = [
+      { title:'Welcoming all of life — the philosophy & FACE practice', href:'Vinay - Approach.dc.html', span:2 },
+      { title:'How the work works — the Wheel of Life', href:'Vinay - Approach.dc.html#wheel', span:1 },
+      { title:'Why this matters to me', href:'Vinay - About.dc.html', span:1 },
+      { title:'The wider dream', href:'Vinay - About.dc.html#dream', span:1 },
+      { title:'Training & background', href:'Vinay - Training.dc.html', span:1 },
+      { title:'Group work & collaboration', href:'Vinay - Group Work.dc.html', span:2 }
+    ];
+    const doorwayOptions = ['Body','Mind','Emotion','Action','Breath','More than one','I\u2019m not sure yet'];
+    const dayOptions = ['Mon','Tue','Wed','Thu','Fri','Sat','Sun','Flexible'];
+    const timeOptionsRaw = [
+      { value:'2:30pm IST', label:'2:30pm IST' },
+      { value:'3:30pm IST', label:'3:30pm IST' },
+      { value:'Either works', label:'Either works' }
+    ];
+    const timeOptions = timeOptionsRaw.map(t => ({ ...t, bg: this.state.time === t.value ? 'var(--color-accent-2-900)' : 'transparent', border: this.state.time === t.value ? 'var(--color-accent-2)' : 'var(--color-divider)' }));
+
+    return {
+      rootRef: this.rootRef, doorways, testimonials, deeper, doorwayOptions, dayOptions, timeOptions,
+      form: this.state.form, setField: this.setField, toggleConsent: this.toggleConsent,
+      toggleDoorway: this.toggleDoorway, toggleDay: this.toggleDay, setTime: this.setTime,
+      error: this.state.error, submitted: this.state.submitted, handleSubmit: this.handleSubmit
+    };
+  }
+}
+
+</script>
+</body>
+</html>

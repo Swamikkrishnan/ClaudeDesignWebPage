@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="_ds/ai-lab-h-prompt-se-portfolio-tak-ea2fd710-a43b-4e4e-8da6-9c719e5ef6a4/styles.css">
+<script src="_ds/ai-lab-h-prompt-se-portfolio-tak-ea2fd710-a43b-4e4e-8da6-9c719e5ef6a4/_ds_bundle.js"></script>
+<style>
+html{scroll-behavior:smooth}
+body{margin:0}
+a{color:var(--color-accent-2);text-decoration:none}
+a:hover{color:var(--color-accent-2-300)}
+::selection{background:var(--color-accent-2);color:var(--color-bg)}
+</style>
+</helmet>
+
+<div ref="{{ rootRef }}" style="background:var(--color-bg);color:var(--color-text);font-family:var(--font-body);line-height:1.6">
+
+<nav style="position:sticky;top:0;z-index:50;display:flex;align-items:center;justify-content:space-between;padding:22px clamp(20px,5vw,64px);background:color-mix(in srgb, var(--color-bg) 82%, transparent);backdrop-filter:blur(10px)">
+  <a href="Vinay Homepage B - Spoke Rail.dc.html" style="font-family:var(--font-heading);font-size:15px;letter-spacing:0.04em;color:var(--color-text)">← Vinay Swaminathan</a>
+  <div style="display:flex;gap:clamp(16px,3vw,32px);align-items:center;font-size:14px">
+    <a href="Vinay - About.dc.html" style="color:var(--color-text);opacity:0.75">About</a>
+    <a href="Vinay Homepage B - Spoke Rail.dc.html#alignment-call" style="border:1px solid var(--color-divider);padding:9px 18px;border-radius:999px;color:var(--color-text)">Alignment Call</a>
+  </div>
+</nav>
+
+<section style="max-width:700px;margin:0 auto;padding:min(10vw,90px) 24px 20px">
+  <p data-reveal="1" style="font-size:13px;letter-spacing:0.14em;text-transform:uppercase;color:var(--color-neutral-500);margin:0 0 20px">Training &amp; Background</p>
+  <h1 data-reveal="1" style="font-family:var(--font-heading);font-weight:800;font-size:clamp(32px,4.6vw,48px);line-height:1.1;margin:0 0 30px">What really matters.</h1>
+  <p data-reveal="1" style="font-size:18px;line-height:1.75;color:var(--color-neutral-300);margin:0 0 18px">Rigorous training provides the tools to hold this space safely, and my own ongoing healing provides a steadiness you can lean on. But the true catalyst is your readiness. When you are truly willing to shift, even a single well-timed question can be enough.</p>
+</section>
+
+<section style="max-width:700px;margin:0 auto;padding:20px 24px 50px">
+  <p data-reveal="1" style="font-size:13px;letter-spacing:0.14em;text-transform:uppercase;color:var(--color-neutral-500);margin:0 0 18px">The Path</p>
+  <p data-reveal="1" style="font-size:17px;line-height:1.75;color:var(--color-neutral-300);margin:0">My healing and transformation began in June 2016, together with my training as a practitioner. Since then, over 3,000 hours across more than 200 workshops, trainings, seminars, retreats, resits and assisting roles — including work with more than 1,000 people through paid and gift sessions, supervised work, peer exchange and training settings.</p>
+</section>
+
+<section style="max-width:760px;margin:0 auto;padding:40px 24px 20px;border-top:1px solid var(--color-divider)">
+  <p data-reveal="1" style="font-size:13px;letter-spacing:0.14em;text-transform:uppercase;color:var(--color-neutral-500);margin:0 0 30px">Certified Qualifications</p>
+  <sc-for list="{{ certs }}" as="c" hint-placeholder-count="4">
+    <div data-reveal="1" style="padding:26px 0;border-top:1px solid var(--color-divider)">
+      <p style="font-family:var(--font-heading);font-weight:800;font-size:18px;margin:0 0 4px">{{ c.name }}</p>
+      <p style="font-size:13px;color:var(--color-accent-2-300);margin:0 0 10px">{{ c.meta }}</p>
+      <p style="font-size:15px;color:var(--color-neutral-300);line-height:1.65;margin:0">{{ c.desc }}</p>
+    </div>
+  </sc-for>
+  <div style="border-top:1px solid var(--color-divider)"></div>
+</section>
+
+<section style="max-width:760px;margin:0 auto;padding:50px 24px 20px">
+  <p data-reveal="1" style="font-size:13px;letter-spacing:0.14em;text-transform:uppercase;color:var(--color-neutral-500);margin:0 0 30px">Extensive Practice &amp; Study</p>
+  <sc-for list="{{ practice }}" as="p" hint-placeholder-count="2">
+    <div data-reveal="1" style="padding:26px 0;border-top:1px solid var(--color-divider)">
+      <p style="font-family:var(--font-heading);font-weight:800;font-size:18px;margin:0 0 4px">{{ p.name }}</p>
+      <p style="font-size:13px;color:var(--color-accent-2-300);margin:0 0 10px">{{ p.meta }}</p>
+      <p style="font-size:15px;color:var(--color-neutral-300);line-height:1.65;margin:0">{{ p.desc }}</p>
+    </div>
+  </sc-for>
+  <div style="border-top:1px solid var(--color-divider);margin-bottom:20px"></div>
+  <p data-reveal="1" style="font-size:13px;color:var(--color-neutral-500);line-height:1.65;font-style:italic;margin:0">Note: Final accreditation for The Journey and EFT required additional case-study documentation, which I did not complete.</p>
+</section>
+
+<section style="max-width:760px;margin:0 auto;padding:50px 24px 20px">
+  <p data-reveal="1" style="font-size:13px;letter-spacing:0.14em;text-transform:uppercase;color:var(--color-neutral-500);margin:0 0 30px">Personal Transformation</p>
+  <div data-reveal="1" style="padding:26px 0;border-top:1px solid var(--color-divider)">
+    <p style="font-family:var(--font-heading);font-weight:800;font-size:18px;margin:0 0 4px">Landmark Curriculum</p>
+    <p style="font-size:13px;color:var(--color-accent-2-300);margin:0 0 10px">2018–2019</p>
+    <p style="font-size:15px;color:var(--color-neutral-300);line-height:1.65;margin:0">An intensive program using group dialogue to uncover personal blind spots, separating facts from stories while defining integrity not as a moral value, but as a mechanical condition of being whole and complete.</p>
+  </div>
+  <div data-reveal="1" style="padding:26px 0;border-top:1px solid var(--color-divider)">
+    <p style="font-family:var(--font-heading);font-weight:800;font-size:18px;margin:0 0 4px">Meditation, Pranayama and Silence</p>
+    <p style="font-size:15px;color:var(--color-neutral-300);line-height:1.65;margin:0">Sustained personal practice and periods of silence since childhood.</p>
+  </div>
+  <div data-reveal="1" style="padding:26px 0;border-top:1px solid var(--color-divider)">
+    <p style="font-family:var(--font-heading);font-weight:800;font-size:18px;margin:0 0 4px">Wider Study</p>
+    <p style="font-size:15px;color:var(--color-neutral-300);line-height:1.65;margin:0">Human Design, Gene Keys and the Enneagram.</p>
+  </div>
+  <div style="border-top:1px solid var(--color-divider)"></div>
+</section>
+
+<section style="max-width:700px;margin:0 auto;padding:60px 24px 120px;text-align:center">
+  <a data-reveal="1" href="Vinay Homepage B - Spoke Rail.dc.html#alignment-call" style="display:inline-block;background:var(--color-accent-2);color:#1a1305;font-weight:600;font-size:15px;padding:16px 34px;border-radius:var(--radius-md)" style-hover="background:#dfae5b">Request an Alignment Call</a>
+</section>
+
+<footer style="padding:44px 24px;border-top:1px solid var(--color-divider);display:flex;flex-wrap:wrap;gap:16px;justify-content:space-between;max-width:1040px;margin:0 auto;font-size:13px;color:var(--color-neutral-600)">
+  <span>© 2026 Vinay Swaminathan · Auroville</span>
+</footer>
+
+</div>
+
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+class Component extends DCLogic {
+  rootRef = React.createRef();
+  componentDidMount() {
+    const root = this.rootRef.current;
+    if (!root) return;
+    const els = Array.from(root.querySelectorAll('[data-reveal]'));
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.style.opacity = '1';
+          entry.target.style.transform = 'none';
+          io.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0, rootMargin: '0px 0px -40px 0px' });
+    requestAnimationFrame(() => {
+      requestAnimationFrame(() => {
+        els.forEach((el) => {
+          const rect = el.getBoundingClientRect();
+          if (rect.top < window.innerHeight && rect.bottom > 0) {
+            el.style.opacity = '1';
+            el.style.transform = 'none';
+            return;
+          }
+          el.style.opacity = '0';
+          el.style.transform = 'translateY(24px)';
+          el.style.transition = 'opacity .8s cubic-bezier(.16,1,.3,1), transform .8s cubic-bezier(.16,1,.3,1)';
+          io.observe(el);
+        });
+      });
+    });
+  }
+  renderVals() {
+    return {
+      rootRef: this.rootRef,
+      certs: [
+        { name:'Craniosacral Therapy (CST)', meta:'Sri Sri School of Healing Arts · 2018–2020 · Nine five-day modules', desc:'A non-invasive, healing process that works through gentle touch to release stress, disturbance, injury and deep-seated trauma.' },
+        { name:'Holotropic Breathing Technique', meta:'Center for Holotropic Breathwork · 2024–2025 · Nine five-day modules', desc:'A therapeutic practice using rapid, deep breathing and music to induce altered states of consciousness for emotional healing.' },
+        { name:'NLP Practitioner & Breakthrough Coach', meta:'Vitality Living College · 2017–2019', desc:'Foundational training in neuro-linguistic programming and breakthrough coaching methods.' },
+        { name:'Access Bars Practitioner', meta:'Access Consciousness · 2018–2019', desc:'An alternative therapy that involves lightly touching 32 specific points on the head to release stress and stored mental blocks.' }
+      ],
+      practice: [
+        { name:'The Journey', meta:'642 hours · 2017–2020 · full pathway completed twice', desc:'A specialized emotional healing framework designed to access and resolve deep-seated trauma or suppressed emotions. Developed by Brandon Bays in the 1990s, it operates on the philosophy that unresolved emotional pain is physically stored in the body\u2019s cells and must be consciously cleared.' },
+        { name:'EFT & Matrix Reimprinting', meta:'195+ hours · 2016–2020 · advanced levels, repeat study and assisting', desc:'Combines gentle tapping on acupressure points with a guided conversation to safely release intense emotions from your body and rewrite the painful memories behind them.' }
+      ]
+    };
+  }
+}
+
+</script>
+</body>
+</html>
